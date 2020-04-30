@@ -1,5 +1,4 @@
-$primary-color: black;
-$secondary-color: #F012BE;
+@import 'config';
 
 * {
     box-sizing: border-box;
@@ -19,7 +18,7 @@ canvas {
   top:0;
   left:0;
   z-index: -1;
-}
+} 
 
 // Headings
 h1, h2, h3 {
@@ -57,8 +56,16 @@ main {
            padding: 0.4rem; 
 
            &:hover {
-               color: $secondary-color ;
+               color: $secondary-color;
+               @include easeOut();
            }
+        }
+    }
+
+    &#home {
+        overflow: hidden;
+        h1 {
+            margin-top: 20vh;
         }
     }
 }
