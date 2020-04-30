@@ -1,8 +1,17 @@
 $primary-color: black;
+$secondary-color: #F012BE;
+
+* {
+    box-sizing: border-box;
+}
 
 body {
     background: $primary-color;
     color: whitesmoke;
+    height: 100%;
+    margin: 0;
+    font-family: 'Orbitron', sans-serif;
+    line-height: 1.5;
 }
 
 canvas {
@@ -10,4 +19,46 @@ canvas {
   top:0;
   left:0;
   z-index: -1;
+}
+
+// Headings
+h1, h2, h3 {
+    margin: 0;
+    font-weight: 400;
+
+    &.lg-heading {
+        font-size: 6rem;
+    }
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+
+.text-secondary {
+    color: $secondary-color
+}
+
+main {
+    padding: 4rem;
+    height: 100%;
+
+    .icons {
+        margin-top: 1rem;
+
+        a {
+           padding: 0.4rem; 
+
+           &:hover {
+               color: $secondary-color ;
+           }
+        }
+    }
 }
