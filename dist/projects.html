@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://kit.fontawesome.com/45edf87bb3.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap" rel="stylesheet">
+    <title>Projects</title>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="menu-btn">
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+            <div class="btn-line"></div>
+        </div>
+
+        <!-- MY PHOTO -->
+        <nav class="menu">
+            <div class="menu-branding">
+                <div class="portrait"></div>
+            </div>
+
+            <!-- NAV BAR -->
+            <ul class="menu-nav">
+                <li class="nav-item">
+                    <a href="/" class="nav-link">
+                        Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="about.html" class="nav-link">
+                        My Story</a>
+                </li>
+                <li class="nav-item current">
+                    <a href="projects.html" class="nav-link">
+                        Projects </a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link">
+                        Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="projects">
+        <h1 class="lg-heading">
+            My <span class="text-secondary">Projects</span>
+        </h1>
+
+        <div class="projects">
+
+            <!-- PROJECT 1 - TASTE OF RUSSIA -->
+            <div class="item">
+                <img src="img/tasteOfRussia.png" alt="Russian recipe app">
+                <a target="_blank" class="btn-light" href="https://www.youtube.com/watch?v=mZ44yJ_wiUE">Demo</a>
+
+                <a target="_blank" class="btn-dark" href="https://github.com/AlenaNiku/MOD4-project-frontend"><i class="fab fa-github"></i></a>
+                <p id="bio">My final project for Flatiron Software Engineering programm - Russian recipe app.
+                Developed a Rails API backend for data fetching and persistence.
+                Implemented React for user interface and Redux for state management.
+                Used Redux middleware to respond to and modify state changes.
+                Used react-router in conjunction with RESTful routing convention.</p>
+            </div>
+
+            <!-- PROJECT 2 - ADVENTUREGAZE -->
+            <div class="item">
+                <img src="img/AdventureGaze - screenshot.png" alt="Travel app">
+                <a target="_blank" class="btn-light" href="https://www.youtube.com/watch?v=Rj9d_Z9Bgsw&t=6s">Demo</a>
+            
+                <a target="_blank" class="btn-dark" href="https://github.com/kgriswo1/adventuregazeFrontend"><i class="fab fa-github"></i></a>
+                <p id="bio">Collaborated on creating a Travel app. Browse hand-picked destinations and save them to your profile with desired travel
+                dates. Rails backend with JavaScript/CSS.</p>
+            </div>
+
+            <!-- PROJECT 3 - BEAUTYVERSE -->
+            <div class="item">
+                <img src="img/BeautyVerse.png" alt="Makeup research app">
+                <a target="_blank" class="btn-light" href="https://www.youtube.com/watch?v=PB_K-wEBEV8">Demo</a>
+            
+                <a target="_blank" class="btn-dark" href="https://github.com/AlenaNiku/makeup_time"><i
+                        class="fab fa-github"></i></a>
+                        <p id="bio">Collaborated on creating a Rails application for researching makeup brands and their products with the ability to leave
+                        a review.</p>
+            </div>
+        </div>
+            
+    </main>
+
+    <footer id="main-footer">
+        Alena Nikulina &copy; 2020
+    </footer>
+
+
+    <script src="js/main.js"> </script>
+</body>
+
+</html>
