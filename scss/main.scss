@@ -1,6 +1,5 @@
 @import 'config';
 @import 'menu';
-@import 'mobile';
 
 
 * {
@@ -51,7 +50,7 @@ header {
 main {
     padding: 4rem;
     // height: 100%;
-    height: calc(100vh - 60px);  // sticky footer
+    min-height: calc(100vh - 60px);  // sticky footer (responsive!)
 
     .icons {
         margin-top: 1rem;
@@ -95,7 +94,15 @@ main {
 
 .bio {
     grid-area: bio;
-    // font-size: 1.5rem;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+}
+
+#bio {
+    font-size: 1.2rem;
+
 }
 
 .education-1 {
@@ -121,3 +128,6 @@ main {
     height: 60px;
     color: $secondary-color;
 }
+
+
+@import 'mobile';

@@ -47,6 +47,17 @@
             background-size: cover;
         }
     }
+
+    .about-info {
+        grid-template-areas:
+        'bioimage'
+        'bio'
+        'education1'
+        'education2'
+        'education3';
+
+        grid-template-columns: 1fr;
+    }
 }
 
 //Smartphones
