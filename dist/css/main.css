@@ -114,6 +114,12 @@ h1, h2, h3 {
   h1.lg-heading, h2.lg-heading, h3.lg-heading {
     font-size: 6rem; }
 
+h6 {
+  padding: 0;
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 0.8rem; }
+
 a {
   color: whitesmoke;
   text-decoration: none; }
@@ -127,7 +133,7 @@ header {
   color: #F012BE; }
 
 main {
-  padding: 4rem;
+  padding: 2rem;
   min-height: calc(100vh - 60px); }
   main .icons {
     margin-top: 1rem; }
@@ -184,11 +190,20 @@ p {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    border: 3px #fff solid;
+    margin-bottom: 10px; }
     .projects img:hover {
       opacity: 0.5;
       border-color: #F012BE;
       transition: all 0.5s ease-out; }
+
+.project {
+  color: #F012BE;
+  padding: 8px; }
+
+.project-bullets {
+  font-family: 'Raleway', sans-serif;
+  list-style-type: square; }
 
 .boxes {
   display: flex;
@@ -232,6 +247,9 @@ p {
   background: #1a1a1a;
   height: 60px;
   color: #F012BE; }
+
+.footer {
+  font-size: 6px; }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {

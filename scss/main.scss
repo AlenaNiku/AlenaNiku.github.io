@@ -32,6 +32,14 @@ h1, h2, h3 {
     }
 }
 
+h6 {
+    padding: 0;
+    margin-top: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.8rem;
+
+}
+
 a {
     color: whitesmoke;
     text-decoration: none;
@@ -48,7 +56,7 @@ header {
 }
 
 main {
-    padding: 4rem;
+    padding: 2rem;
     // height: 100%;
     min-height: calc(100vh - 60px);  // sticky footer (responsive!)
 
@@ -130,6 +138,7 @@ p {
     img {
         width: 100%;
         border: 3px #fff solid;
+        margin-bottom: 10px;
 
         &:hover {
             opacity: 0.5;
@@ -137,6 +146,16 @@ p {
             @include easeOut;
         }
     }
+}
+
+.project {
+    color: $secondary-color;
+    padding: 8px;
+}
+
+.project-bullets {
+    font-family: 'Raleway', sans-serif;
+    list-style-type: square;
 }
 
 // Contact Page
@@ -195,6 +214,10 @@ p {
     background: lighten($color: #000000, $amount: 10);
     height: 60px;
     color: $secondary-color;
+}
+
+.footer {
+    font-size: 6px;
 }
 
 
