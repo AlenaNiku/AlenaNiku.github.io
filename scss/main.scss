@@ -37,6 +37,7 @@ h6 {
     margin-top: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 0.8rem;
+    font-weight: 200;
 
 }
 
@@ -76,7 +77,7 @@ main {
     &#home {
         overflow: hidden;
         h1 {
-            margin-top: 20vh;
+            margin-top: 30vh;
         }
     }
 }
@@ -106,6 +107,7 @@ main {
 
 p {
     font-family: 'Raleway', sans-serif;
+    font-weight: 200;
 }
 
 #bio {
@@ -125,7 +127,7 @@ p {
 
 .education {
     background: lighten($color: #000000, $amount: 8);
-    padding: 0.5rem;
+    padding: 1rem;
     border-bottom: $secondary-color 5px solid;
 }
 
@@ -182,7 +184,6 @@ p {
             }
         }
     }
-
 }
 
 // Button Styles
