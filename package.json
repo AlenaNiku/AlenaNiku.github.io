@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Portfolio website",
   "main": "GLTFLoader.js",
-  "homepage": "https://AlenaNiku.github.io",
+  "homepage": "https://AlenaNiku.github.io/portfolio-website/HTML/index.html",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
