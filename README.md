@@ -1,8 +1,8 @@
-# Welcome to my personal portfolio website!
+# Welcome to my personal portfolio website! 🤩 
 
 ![my portfolio](https://github.com/AlenaNiku/portfolio-website/blob/master/updated.gif)
 
-Built with pure HTML, CSS and vanilla JavaScript! This website gives you a little more information about me and the projects I've worked on as well as how to find me around the web!
+Built with pure HTML, CSS and vanilla JavaScript! 💪🤓 &nbsp; This website gives you a little more information about me and the projects I've worked on as well as how to find me around the web! 🌐
 
 #### Check out my blog post 👉 &nbsp;  <a href="https://medium.com/@alenanikulina0/how-i-created-my-portfolio-website-frontend-web-developer-d93a6ef47c50" target="_blank">How I Created My Portfolio Website (Frontend Web Developer)</a>
 
@@ -10,19 +10,19 @@ Built with pure HTML, CSS and vanilla JavaScript! This website gives you a littl
 
 ### Let's quickly see what each page looks like! 
 
-- Menu Page
+- Menu Page 1️⃣
 
 ![menu page](https://github.com/AlenaNiku/portfolio-website/blob/master/1.png)
 
-- About Page
+- About Page 2️⃣
 
 ![about page](https://github.com/AlenaNiku/portfolio-website/blob/master/about.png)
 
-- Projects Page
+- Projects Page 3️⃣
 
 ![projects page](https://github.com/AlenaNiku/portfolio-website/blob/master/projects.png)
 
-- Contact Page
+- Contact Page 4️⃣
 
 ![contact page](https://github.com/AlenaNiku/portfolio-website/blob/master/contact.png)
 
