@@ -2,7 +2,7 @@
 
 ![my portfolio](https://github.com/AlenaNiku/portfolio-website/blob/master/updated.gif)
 
-Built with pure HTML, CSS and vanilla JavaScript! 💪🤓 &nbsp; This website gives you a little more information about me and the projects I've worked on as well as how to find me around the web! 🌐
+Built with pure **HTML**, **CSS** and **vanilla JavaScript**! 💪🤓 &nbsp; This website contains my bio, the projects I've worked on as well as how to find me around the web! 🌐
 
 #### Check out my blog post 👉 &nbsp;  <a href="https://medium.com/@alenanikulina0/how-i-created-my-portfolio-website-frontend-web-developer-d93a6ef47c50" target="_blank">How I Created My Portfolio Website (Frontend Web Developer)</a>
 
